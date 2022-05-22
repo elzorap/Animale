@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/darker_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivPisici"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="@dimen/margin"
+        android:contentDescription="@string/content_pisici"
+        android:scaleType="fitXY"
+        android:src="@drawable/imagine_pisici"
+        app:layout_constraintBottom_toTopOf="@+id/tvVarstaPisica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="168dp"
+        android:text="@string/rasa"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivPisici" />
+
+    <TextView
+        android:id="@+id/tvRasaPisica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/rasa_pisica"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rasa"
+        app:layout_constraintStart_toEndOf="@+id/rasa"
+        app:layout_constraintTop_toTopOf="@+id/rasa" />
+
+    <TextView
+        android:id="@+id/varsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/varsta"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rasa" />
+
+    <TextView
+        android:id="@+id/ani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/ani"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvVarstaPisica"
+        app:layout_constraintStart_toEndOf="@+id/tvVarstaPisica"
+        app:layout_constraintTop_toTopOf="@+id/tvVarstaPisica" />
+
+    <TextView
+        android:id="@+id/tvVarstaPisica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/varsta_pisica"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/varsta"
+        app:layout_constraintTop_toBottomOf="@+id/tvRasaPisica" />
+
+    <TextView
+        android:id="@+id/nume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/nume"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/varsta" />
+
+    <TextView
+        android:id="@+id/tvNumePisica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginStart="4dp"
+        android:text="@string/nume_pisica"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/nume"
+        app:layout_constraintStart_toEndOf="@+id/nume"
+        app:layout_constraintTop_toBottomOf="@+id/tvVarstaPisica"
+        app:layout_constraintVertical_bias="0.033" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

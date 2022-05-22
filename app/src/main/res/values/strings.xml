@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Animale</string>
+    <string name="content_caini">Imagine cu caini</string>
+    <string name="content_pisici">Imagine cu pisici</string>
+    <string name="caini">Caini</string>
+    <string name="pisici">Pisici</string>
+    <string name="rasa_caine">Rasa caine</string>
+    <string name="varsta_caine">Varsta caine</string>
+    <string name="nume_caine">Nume caine</string>
+    <string name="descriere_caine">Descriere caine</string>
+    <string name="rasa_pisica">Rasa pisica</string>
+    <string name="varsta_pisica">Varsta pisica</string>
+    <string name="nume_pisica">Nume pisica</string>
+    <string name="rasa">Rasa:</string>
+    <string name="varsta">Varsta:</string>
+    <string name="nume">Nume:</string>
+    <string name="descriere">Descriere:</string>
+    <string name="ani">ani</string>
+</resources>
